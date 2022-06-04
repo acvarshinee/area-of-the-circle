@@ -3,7 +3,7 @@ r=int(input("enter radius")
 area=3.14*r**2
 printf("area of circle:",area)
 
-#include
-f=input("enter the file name:")
-add=(f+".py)
-Printf("extension of file name:",add)
+#file extension 
+File=input ("enter file name:")
+extension =file.split(".")
+Print("extension of file:",str(extension [-1]))
